@@ -1,29 +1,165 @@
-<!DOCTYPE html>
+[10:53, 5/2/2024] +55 46 9103-5226: header {
+    background-color: #383D58;
+    color:white;
+}
+
+.cabeçalho-imagem {
+    
+    width: 20%;
+
+}
+
+.cabeçalho {
+    background-color: #383D58;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+.escola-imagem {
+    width: 25%;
+}
+
+.escola {
+    background-image: linear-gradient(#383D58,#00c0eb);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.escola-conteudo {
+    width: 55%;
+}
+
+.escola-título {
+    padding: 24px 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.estudante-imagem {
+    width: 120px;
+}
+
+.estudante-icone {
+    width…
+[10:53, 5/2/2024] +55 46 9103-5226: style
+[10:53, 5/2/2024] +55 46 9103-5226: <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=h, initial-scale=1
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="./img/alurastart
-    <ul class="cabecalho-lista-item">
-        <li class="cabecalho-lista-item">Estudante</li>
-        <li class="cabecalho-lista-item">Escola</li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="htpps://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabeçalho">
+      <img class="cabeçalho-imagem" src="./img/alurastart logo 1.png" alt="logo da alura start">
+    <ul class="cabeçalho-lista-item">
+        <li class="cabeçalho-lista-item">Estudante</li>
+        <li class="cabeçalho-lista-item">Colégio</li>
     </ul>
     </header>
-    <section class="escola"
-        <div class="escola-conteudo"
-        <h2 class="escola-titulo">Sobre a escola</h2>
-        <p class="escola-titulo-um"A escola Alura foi fundada em 2010 com o objetivo de ensinar 
-            Pensamento computacional através da Programação. </p>
-        <p class="escola-texto-dois"> A turma mais famosa é a segunda Série A,Uma turma diversa 
-            e engajada, as vezes, um pouco bagunceira, mas que entrega excelentes resultados!</p>
-        </div>
-            <img class="escola-imagem" src="./img/Education-rafiki.png" alt="menina e menino estudando">
-        </section>
-        </body>
+    <section class="escola">
+        <div class="escola-conteudo">
+        <h2 class="escola-título">Sobre o Colégio</h2>
+        <p class="escola-texto-um">O Colégio EStadual São Pedro - Ensino Fundamental e Médio foi fundado em 1975 com o objetivo de trazer conhecimento às pessoas.</p>
+        <p class="escola-texto-dois">A turma mais famosa é a Segunda Série B. Uma turma de exatas com poucas pessoas, mas diversa, e as vezes, bagunceira, mas que entrega ótimos resultados!</p>
+    </div>
+        <img class="escola-imagem" src="./img/frent_jpg2.jpg" alt="Colégio">
+    </section>
+    <section class="estudante">
+        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+        <div class="estudante-todos">
+            <span></span>
+    <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.39.jpeg" alt="foto do estudante Taylan">
+        <h3 class="estudante-nome">Taylan</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.40.jpeg" alt="foto do estudante Petickovit">
+        <h3 class="estudante-nome">Petickovit</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.41.jpeg" alt="foto do estudante Joao">
+        <h3 class="estudante-nome">João</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+    <span></span>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.41 (1).jpeg" alt="foto do estudante Tatiani">
+        <h3 class="estudante-nome">Tatiani</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.42.jpeg" alt="foto do estudante Lara">
+        <h3 class="estudante-nome">Lara</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.44.jpeg" alt="foto do estudante Talita">
+        <h3 class="estudante-nome">Talita</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+    <span></span>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.45 (1).jpeg" alt="foto do estudante Jessika">
+        <h3 class="estudante-nome">Jessika</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.45.jpeg" alt="foto do estudante Angela">
+        <h3 class="estudante-nome">Angela</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+     <div class="estudante-div">
+        <img class="estudante-imagem" src="./img/WhatsApp Image 2024-04-08 at 11.07.46.jpeg" alt="foto do estudante Leticia">
+        <h3 class="estudante-nome">Letícia</h3>
+        <a href="https://www.instagram.com/" target="_blank"><img class="estudante-icone" src="img/instagram.png" alt="Instagram"></a>
+        <a href="https://www.github.com/" target="_blank"><img class="estudante-icone" src="img/github.png" alt="Github"></a>
+        <a href="https://www.linkedin.com/" target="_blank"><img class="estudante-icone" src="img/linkedin.png" alt="Linkedin"></a>
+    </div>
+    <span></span>
+</div>
+    </section>
+    <footer>
+        <img src="./img/alurastart logo 1.png" alt="logo da alura start">
+    </footer>
+    </body>
 </html>
